@@ -1,0 +1,341 @@
+Salesforce Integration Questions
+
+General Integration Questions
+
+Q. What is Salesforce integration and why is it important?
+
+Q. What are the different methods available for integrating Salesforce with other systems?
+
+Q. What is an API and how is it used in Salesforce integration?
+
+Q. What are the different types of APIs available in Salesforce (REST, SOAP, Bulk, Streaming)?
+
+Q. What are the best practices for integrating Salesforce with external systems?
+
+Q. What security considerations should be taken into account when integrating with Salesforce?
+
+Q. How can you handle data synchronisation between Salesforce and external systems?
+
+Specific Integration Scenarios
+
+Q. How do you integrate Salesforce with an ERP system (e.g., SAP, Oracle)?
+
+Q. How can you connect Salesforce with a marketing automation tool (e.g., Marketo, HubSpot)?
+
+Q. What are the steps to integrate Salesforce with a payment gateway (e.g., PayPal, Stripe)?
+
+Q. How do you set up a real-time data integration between Salesforce and a database (e.g., SQL Server, MySQL)?
+
+Q. What are the considerations for integrating Salesforce with a custom-built application?
+
+Q. How can you integrate Salesforce with a telephony system (e.g., Twilio, Avaya)?
+
+Tools and Middleware
+
+Q. What middleware solutions can be used for Salesforce integration (e.g., MuleSoft, Dell Boomi, Informatica)?
+
+Q. How do you configure and use MuleSoft for Salesforce integration?
+
+Q. What is Salesforce Connect and how can it be used for integration?
+
+Q. What are the advantages of using middleware for Salesforce integration?
+
+Q. How do you set up and use an ETL (Extract, Transform, Load) tool for Salesforce integration?
+
+Salesforce-Specific Tools
+
+Q. What is the Salesforce Data Loader and how is it used for integration?
+
+Q. How can you use Salesforce External Services for integration?
+
+Q. What is Salesforce's Platform Events and how can it be used for integration?
+
+Q. How do you configure Salesforce to use Named Credentials for external callouts?
+
+Q. What are Salesforce Connect and External Objects, and how do they facilitate integration?
+
+Authentication and Security
+
+Q. How do you set up OAuth 2.0 for secure Salesforce integration?
+
+Q. What is the difference between user-level and application-level authentication in Salesforce?
+
+Q. How do you manage API limits and quotas in Salesforce integrations?
+
+Q. What is the importance of IP whitelisting in Salesforce integrations?
+
+Troubleshooting and Monitoring
+
+Q. How do you monitor and debug Salesforce integration issues?
+
+Q. What are some common errors encountered during Salesforce integration and how can they be resolved?
+
+Q. How do you ensure data integrity during Salesforce integrations?
+
+Q. What tools can be used for monitoring Salesforce API usage and performance?
+
+Advanced Topics
+
+Q. How do you handle complex data transformations during Salesforce integration?
+
+Q. What is the role of asynchronous processing in Salesforce integration?
+
+Q. How can you leverage Salesforce's asynchronous Apex (e.g., Future Methods, Batch Apex) for integration tasks?
+
+Q. What are the considerations for integrating Salesforce with IoT (Internet of Things) devices?
+
+Q. How do you implement a microservices architecture for Salesforce integration?
+
+Integration Use Cases
+
+Q. How do you integrate Salesforce with a content management system (e.g., WordPress, Drupal)?
+
+Q. How can Salesforce be integrated with social media platforms (e.g., Facebook, Twitter)?
+
+Q. What are the steps to integrate Salesforce with an e-commerce platform (e.g., Shopify, Magento)?
+
+Q. How can Salesforce be integrated with a Customer Relationship Management (CRM) system?
+
+Q. How do you integrate Salesforce with cloud storage solutions (e.g., Google Drive, Dropbox)?
+
+Q. How can Salesforce be integrated with a project management tool (e.g., Jira, Asana)?
+
+Apex REST
+
+Q. What is Apex REST in Salesforce?
+
+Q. How do you create a custom Apex REST API in Salesforce?
+
+Q. What are the best practices for designing and implementing Apex REST services?
+
+Q. How do you handle authentication and authorization in Apex REST?
+
+Q. How do you test and debug Apex REST services?
+
+Q. How do you handle JSON and XML payloads in Apex REST?
+
+Q. What are the considerations for versioning Apex REST APIs?
+
+Q. How do you implement error handling in Apex REST services?
+
+Q. How do you consume external REST APIs using Apex in Salesforce?
+
+Q. What are some common use cases for Apex REST in Salesforce?
+
+Platform Events
+
+Q. What are Platform Events in Salesforce and how do they work?
+
+Q. How do you create and publish Platform Events in Salesforce?
+
+Q. How do you subscribe to Platform Events in Salesforce?
+
+Q. What are the differences between high-volume and standard-volume Platform Events?
+
+Q. How do you use Platform Events to integrate Salesforce with external systems?
+
+Q. How do you ensure reliability and fault tolerance when using Platform Events?
+
+Q. What are the considerations for designing event-driven architectures with Platform Events?
+
+Q. How do you monitor and debug Platform Events in Salesforce?
+
+Q. How do Platform Events differ from other Salesforce integration patterns, such as Change Data Capture and Streaming API?
+
+Q. What are some best practices for managing Platform Events?
+
+Unit Testing for Integration
+
+Q. What are the best practices for writing unit test cases for Salesforce integrations?
+
+Q. How do you mock external service callouts in Salesforce unit tests?
+
+Q. What is the HttpCalloutMock interface and how is it used in Salesforce tests?
+
+Q. How can you test REST API integrations in Salesforce?
+
+Q. How do you write unit tests for SOAP API integrations in Salesforce?
+
+Q. What strategies can you use to test integrations with Platform Events?
+
+Q. How do you use Test.setMock and Test.startTest/Test.stopTest methods in integration tests?
+
+Q. How do you ensure code coverage for external callouts in Salesforce?
+
+Q. What are some common challenges in testing Salesforce integrations and how can they be addressed?
+
+Q. How do you validate the data returned from external services in unit tests?
+
+Q. How do you test error handling and retry logic for failed integrations?
+
+Q. How do you write test cases for Apex REST services in Salesforce?
+
+Q. How can you test complex data transformations during integration?
+
+Q. How do you ensure data integrity and consistency in integration test cases?
+
+Q. How do you test asynchronous integrations, such as those using Future Methods, Batch Apex, or Queueable Apex?
+
+Q. What tools and frameworks can assist in writing and running integration tests in Salesforce?
+
+Q. How do you use the Test.setMock method to simulate different responses from external services?
+
+Q. What are the considerations for testing integrations in a multi-org environment?
+
+Q. How do you handle API limits and quotas in integration test cases?
+
+Q. How do you verify the correctness of integration logic in unit tests?
+
+Q. How can you test integrations involving Salesforce Connect and External Objects?
+
+Q. How do you write test cases for integrations using Change Data Capture?
+
+Q. How can you test the end-to-end flow of an integration in Salesforce?
+
+Q. What are the best practices for organising and maintaining integration test cases?
+
+Auth Providers and Named Credentials
+
+Concepts:
+Q. Explain the difference between Auth Providers and Named Credentials in Salesforce.
+
+Q. Describe scenarios where you would use Auth Providers vs. Named Credentials.
+
+Q. Discuss the security benefits of using Named Credentials.
+
+Configuration:
+
+Q. How do you create a Named Credential in Salesforce?
+
+Q. What information is required to configure a Named Credential?
+
+Q. How can you assign permissions to users to access specific Named Credentials?
+
+Q. Explain the role of External Credentials in conjunction with Named Credentials.
+
+Integration:
+Q. Describe how Named Credentials can be used to simplify callouts to external systems during integrations.
+
+Q. How do Named Credentials eliminate the need for Remote Site Settings in some cases?
+
+Q. Can you provide an example of how you would use Named Credentials and Auth Providers together for an integration project?
+
+Security:
+Q. How does Salesforce secure the credentials stored within Named Credentials?
+
+Q. What are some best practices for managing the security of Named Credentials?
+
+Troubleshooting:
+Q. Describe some common issues that can arise when using Named Credentials and how would you troubleshoot them?
+
+Q. How can Named Credentials help with debugging integration issues?
+
+Bonus:
+Q. Discuss the limitations of Named Credentials and when alternative approaches might be preferable.
+
+Q. How do Named Credentials integrate with Salesforce Open API (SOAP or REST)?
+
+Bulk API
+Q. What is the Bulk API, and what are its advantages for data manipulation in Salesforce?
+
+Q. When would you choose Bulk API over the standard Data Loader for data import/export?
+
+Q. Explain the concept of batch jobs and governor limits in the context of the Bulk API.
+
+Q. How do you handle errors and exceptions when using the Bulk API?
+
+Metadata API
+Q. What is the Metadata API, and what functionalities does it offer?
+
+Q. Describe some common use cases for the Metadata API in Salesforce development.
+
+Q. How can the Metadata API be used for automating deployments and managing configurations?
+
+Q. What are some security considerations when using the Metadata API?
+
+Q. How does the Metadata API compare to tools like Salesforce DX for managing deployments?
+
+Integration with Other APIs
+Q. Can Named Credentials be used for authentication with the Bulk API or Metadata API?
+
+Q. How do Auth Providers interact with other Salesforce APIs like REST or SOAP API?
+
+Q. Discuss potential scenarios where Bulk API, Metadata API, and Named Credentials might be used together for an integration project.
+
+Salesforce Integration Fundamentals
+General Concepts
+Q. Explain the benefits of integrating Salesforce with other applications.
+
+Q. What are some common challenges faced during Salesforce integrations?
+
+Q. Describe different types of Salesforce integration patterns (e.g., point-to-point, middleware-based).
+
+Q. How do you ensure data consistency and accuracy during Salesforce integrations?
+
+Integration Techniques
+Q. Explain the role of APIs (REST, SOAP) in Salesforce integrations.
+
+Q. How can Salesforce workflows and processes be leveraged for integration purposes?
+
+Q. Describe the concept of Change Data Capture (CDC) in the context of Salesforce integrations.
+
+Q. Discuss the role of tools like MuleSoft or Informatica Cloud in complex integrations.
+
+Security Considerations
+Q. How do you secure data flow between Salesforce and external systems during integrations?
+
+Q. What are some best practices for managing user access and authorization for integrations?
+
+Troubleshooting
+Q. Describe common troubleshooting techniques for Salesforce integration issues.
+
+Q. How can logs and debug logs be used to identify and resolve integration errors?
+
+Additional Topics
+
+Q. Discuss the role of Apex code in developing custom integrations within Salesforce.
+
+Q. How can pre-built connectors and packages from Salesforce AppExchange simplify integrations?
+
+Q. Explain the concept of Governor Limits and their impact on integrations.
+
+
+
+Scenario-Based Questions
+Q. How would you approach integrating Salesforce with a legacy system that only supports file-based data exchange?
+
+Q. You need to sync customer data between Salesforce and an external CRM system in real-time. What integration strategy would you use and why?
+
+Q. Your Salesforce org needs to integrate with an external service that has rate limits on API calls. How would you design your integration to handle this?
+
+Q. Describe how you would implement an integration that allows Salesforce to receive updates from an external system via webhooks.
+
+Q. You are tasked with migrating data from an on-premises database to Salesforce. What tools and processes would you use?
+
+Q. How would you handle data transformations when integrating Salesforce with a system that has a different data model?
+
+Q. An external system requires data from Salesforce, but the data should only be sent once per day. How would you implement this requirement?
+
+Q. You need to integrate Salesforce with an ERP system to automate order processing. Describe your approach.
+
+Q. How would you ensure secure data transmission between Salesforce and an external system?
+
+Q. A third-party service provides data to Salesforce via a REST API. How would you consume this data and ensure it is correctly processed?
+
+Q. You have to integrate Salesforce with a system that supports only SOAP-based web services. What steps would you take?
+
+Q. How would you use Platform Events to notify external systems about changes in Salesforce records?
+
+Q. You need to build an integration that supports bidirectional data flow between Salesforce and an external system. What challenges might you face and how would you address them?
+
+Q. Describe a scenario where you would use Salesforce Connect for integration and explain why it’s suitable.
+
+Q. How would you handle error logging and monitoring for a Salesforce integration that uses Apex callouts?
+
+Q. An integration you developed is failing due to network issues. How would you troubleshoot and mitigate these failures?
+
+Q. How would you design an integration to handle high data volumes between Salesforce and an external system?
+
+Q. You are asked to integrate Salesforce with a third-party payment gateway. Describe your approach to handle transactions securely.
+
+Q. A client needs to integrate Salesforce with multiple external systems. How would you ensure the integrations are maintainable and scalable?
