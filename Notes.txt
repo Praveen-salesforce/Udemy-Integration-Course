@@ -1,0 +1,10 @@
+What is Integration: Integration is nothing but the connection between two or more system to exchange information from one to another or data between them.
+
+API full form is Application programming Interface.
+API is used to communicate between two or more system and exchange data between ach other.
+
+Client -> API -> Server(Authenticate, Authorize, Response)
+
+API works on client server architecture wherw there will always be minimum one client and a server.
+
+
